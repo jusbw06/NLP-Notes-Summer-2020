@@ -1,0 +1,3 @@
+{"id": 1, "text": "EU rejects German call to boycott British lamb.", "annotations": [{"label": 1, "start_offset": 0, "end_offset": 2, "user": 1}, {"label": 4, "start_offset": 11, "end_offset": 17, "user": 1}, {"label": 4, "start_offset": 34, "end_offset": 41, "user": 1}], "meta": {}, "annotation_approver": null}
+{"id": 2, "text": "Peter Blackburn", "annotations": [{"label": 3, "start_offset": 0, "end_offset": 15, "user": 1}], "meta": {}, "annotation_approver": null}
+{"id": 3, "text": "President Obama", "annotations": [{"label": 3, "start_offset": 0, "end_offset": 15, "user": 1}], "meta": {}, "annotation_approver": null}
