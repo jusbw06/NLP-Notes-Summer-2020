@@ -1,9 +1,12 @@
-# from KNN.py import Classifier as cl-- this is what will happen
+#!/bin/python3
+import SETTINGS as s
 
 
-# This module shall do the management surrounding the classifier
+
+# layer_1_classifier == KNN
+
+# This module shall do the manage the classifier algorithm code
 def execute_classifier():
-	
 	
 	# 1) Read Document(s) From File
 	## Input: File Name as String
@@ -11,8 +14,8 @@ def execute_classifier():
 	
 	
 	# 2) Read the algorithm input data from file (only want to do this once)
-	cl.readFromFile
-	
+	s.layer_1_classifier.readFromFile()
+
 	
 	### SOME FUTURE WRAPPER CODE ###
 	# (Like for multiple layers)
@@ -21,7 +24,7 @@ def execute_classifier():
 	# 3) Execute the Particular Algorithm -- (KNN)
 	## Input: Document Contents as String
 	## Output: Category as String
-	out = cl.classify()
+	out = s.layer_1_classifier.classify()
 	
 	
 	
