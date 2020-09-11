@@ -1,6 +1,6 @@
 #!/bin/python3
 
-from KJV_preprocess import bible_list, books, text_title
+from kjv_preprocess import bible_list, books, text_title
 from nltk_tools import *
 
 

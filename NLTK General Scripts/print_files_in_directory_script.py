@@ -1,7 +1,7 @@
 #!/bin/python3
-import os
+import os, sys
 
-path = '/home/justi/Documents/NLTK Project/DocumentFolder'
+path = sys.argv[1]
 
 os.chdir(path)
 list_files = sorted(os.listdir(path))

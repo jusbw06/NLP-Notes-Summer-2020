@@ -6,7 +6,7 @@ from nltk_tools import *
 import numpy as np
 from numpy import linalg as la
 
-from plotting import *
+from plotting_tools import *
 
 documents = []
 for i in range(0, len(books)):
@@ -44,8 +44,6 @@ def trim_to_desired_books( scores, books, init_list ):
 			print('Bad element: {0}'.format(e))
 	indices = sorted(indices) # optional
 	
-	#print(scores)
-
 	# step 2: remove unwanted 1st level elements
 	new_list = []
 	for i in range(len(scores)):
@@ -74,15 +72,9 @@ def trim_to_desired_books( scores, books, init_list ):
 	return (scores, books)
 				
 
-#scores = scores[0:5]
-#scores = [e[0:5] for e in scores]
-
 #(scores, books) = trim_to_desired_books(scores, books, ['john','luke','matthew','mark'])
 (scores, books) = trim_to_desired_books(scores, books, range(0,6))
 
-
-#print(scores)
-
-toPlot(scores, 'Bible Book Similarity Scores', ( books, books ))
+createPlot(scores, 'Bible Book Similarity Scores', ( books, books ))
 
 

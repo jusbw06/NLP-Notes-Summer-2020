@@ -2,7 +2,7 @@
 
 import matplotlib.pyplot as plt
 
-def toPlot(scores, title, labels):
+def createPlot(scores, title, labels):
 	
 	print(len(scores))
 	
